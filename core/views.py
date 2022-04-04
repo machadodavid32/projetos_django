@@ -12,7 +12,7 @@ def index(request): # Aqui estamos configurando o views para ser usado como cami
 
     context = {
         'curso': 'Programação Web com Django Framework',
-        'outro': 'David é inteligente',
+        'outro': 'Página teste usada como exemplo',
         'produtos': produtos
     }
     return render(request, 'index.html', context)
