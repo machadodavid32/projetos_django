@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-q#9q$fj52@=)ty3+skg-5st_@xncyu*!dz3x7ib&jnm-28^*jw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 # no True, eu consigo configurar o meu projeto sem publicar na 'internet'.
 
 ALLOWED_HOSTS = ["django1-dm.herokuapp.com"]  # Aqui se coloca o dominio. Ex. www.david.com. No caso, o * serve para o hiroco
